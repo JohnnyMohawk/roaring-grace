@@ -19,7 +19,7 @@ video {
 }
 
 .hero-container > h1 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Codystar', cursive;
     color: #fff;
     font-size: 55px;
     margin-top: -100px;
@@ -28,7 +28,7 @@ video {
 .hero-container > p {
     margin-top: 8px;
     color: #fff;
-    font-size: 32px;
+    font-size: 50px;
     font-family: 'Amatic SC', cursive;
 }
 

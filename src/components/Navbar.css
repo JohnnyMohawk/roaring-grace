@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    /* background: linear-gradient(90deg, rgb(246, 192, 101) 0%, rgb(175, 0, 105) 100%); */
     height: 80px;
     display: flex;
     justify-content: center;
@@ -19,8 +19,8 @@
 }
 
 .navbar-logo {
-    font-family: 'Rock Salt', cursive;
-    color: #fff;
+    font-family: 'Codystar', cursive;
+    color: rgb(9, 1, 95);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -28,6 +28,20 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .navbar {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    }
+
+    .navbar {
+        /* background: linear-gradient(90deg, rgb(246, 192, 101, .5) 0%, rgb(175, 0, 105, .5) 100%); */
+        background: linear-gradient(90deg, rgb(246, 192, 101, .6) 0%, rgba(175, 0, 0, 0.6) 100%);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+    }
 }
 
 .fa-typo3 {
@@ -79,9 +93,9 @@
 }
 
 @media screen and (max-width: 960px) {
-    .navbar-logo {
-        margin-top: -38px;
-    }
+    /* .navbar-logo {
+        margin-top: -10px;
+    } */
 
     .NavbarItems {
         position: relative;

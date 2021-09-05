@@ -8,7 +8,8 @@ function HeroSection() {
         <div className="hero-container">
             <video src="/videos/flowers.mp4" autoPlay loop muted />
             <h1>Welcome to Roaring Grace</h1>
-            <p>Let's Breathe</p>
+            <p>Before we roar...</p>
+            <p>we breathe</p>
             <div className="hero-btns">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Begin</Button>
                 <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">Wander</Button>
