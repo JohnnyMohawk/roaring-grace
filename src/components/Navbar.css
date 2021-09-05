@@ -19,7 +19,7 @@
 }
 
 .navbar-logo {
-    font-family: 'Codystar', cursive;
+    font-family: 'Homemade Apple', cursive;
     color: rgb(9, 1, 95);
     justify-self: start;
     margin-left: 20px;
@@ -68,6 +68,11 @@
     font-family: 'Amatic SC', cursive;
     font-size: 26px;
     color: #fff;
+    text-shadow:
+    -1px -1px 0 #5B5B5B,
+    1px 1px 0 #5B5B5B,
+    -1px -1px 0 #5B5B5B,
+    1px 1px 0 #5B5B5B;
     display: flex;
     align-items: center;
     text-decoration: none;
