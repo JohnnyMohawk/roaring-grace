@@ -5,7 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
+/* .home,
 .services,
 .products,
 .sign-up {
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
+} */
 
 .services {
   /* background-image: url('/images/img-2.jpg'); */
@@ -25,7 +25,43 @@
   font-size: 100px;
 }
 
-.products {
+.about {
+  /* background-image: url('/images/img-1.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.spiritual {
+  /* background-image: url('/images/img-1.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.recipes {
+  /* background-image: url('/images/img-1.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.beauty {
+  /* background-image: url('/images/img-1.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact {
   /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
