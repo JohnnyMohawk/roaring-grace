@@ -9,7 +9,7 @@ video {
 
 .hero-container {
     background: url('') center center/cover no-repeat;
-    /* background-color: rgba(234, 197, 30, 0.889); */
+    background-color: rgba(0, 0, 0, 0.1);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -32,19 +32,19 @@ video {
     color: rgb(85, 179, 177);
     font-size: 100px;
     font-family: 'Amatic SC', cursive;
-    text-shadow:
+    /* text-shadow:
     -2px -2px 0 #F6C065,
     2px 2px 0 #F6C065,
     -2px -2px 0 #F6C065,
-    2px 2px 0 #F6C065;
+    2px 2px 0 #F6C065; */
 }
 
 .hero-btns {
-    margin-top: 32px;
+    margin-top: 2px;
 }
 
 .hero-btns .btn {
-    margin: 6px;
+    margin: 10px;
 }
 
 @media screen and (max-width: 960px) {
