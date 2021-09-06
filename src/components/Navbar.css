@@ -23,10 +23,10 @@
     font-family: 'Homemade Apple', cursive;
     color: rgb(85, 179, 177);
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 15px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
 }
@@ -45,10 +45,10 @@
     }
 }
 
-.fa-typo3 {
+/* .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
-}
+} */
 
 .nav-menu {
     display: grid;
@@ -129,17 +129,18 @@
         display: table;
     }
 
-        .nav-links:hover {
-        background-color: #fff;
-        color: #242424;
-        border-radius: 0;
+    .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
     }
 
-        .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(25%, 50%);
+    .navbar-logo {
+    margin-top: -25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
     }
 
     .menu-icon {
@@ -152,10 +153,10 @@
         cursor: pointer;
     }
 
-    .fa-times {
+    /* .fa-times {
         color: #fff;
         font-size: 2rem;
-    }
+    } */
 
     .nav-links-mobile {
         display: block;

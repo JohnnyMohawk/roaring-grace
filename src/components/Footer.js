@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Begin your journey! Sign up for the Roaring Grace newsletter
+                    Begin your journey! Sign up for the Roaring Grace newsletter.
                 </p>
                 <p className="footer-subscription-text">
                     You can unsubscribe at any time.
