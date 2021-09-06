@@ -1,7 +1,24 @@
 import React from 'react';
 // import App from '../../App';
-import '../../App.css'
+import '../pages/About.css'
 
-export default function About() {
-    return <h1 className="about">I Am</h1>
+function About() {
+    return (
+        <div className="info-container">
+            <video src="/videos/flowers.mp4" autoPlay loop muted />
+            
+            <h1>I am</h1>
+            
+            <div className="article-text">
+                <p><span>Hi, I am Karen Muñoz,</span><br />Ad id ad cupidatat dolore magna nulla et tempor est laborum tempor sunt. Cillum irure duis labore tempor reprehenderit. Cillum eu excepteur fugiat exercitation commodo anim minim consectetur ex enim id duis enim. Sit sint officia irure adipisicing officia esse cillum. Anim veniam exercitation duis dolor irure dolore esse aliqua dolore laborum veniam dolore ex. Occaecat eu reprehenderit voluptate dolore et nostrud labore et dolor aliquip. Non ut deserunt aliquip qui cillum excepteur ullamco aliqua qui laborum.</p>
+            </div>
+            <div className="hero-btns">
+
+            </div>
+        </div>
+    )
 }
+
+export default About
+
+
