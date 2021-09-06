@@ -16,6 +16,20 @@ h1 {
     1px 1px 0 rgba(255, 255, 255, 0.2);
 }
 
+h2, h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(17, 5, 44);
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 .cards__container {
     display: flex;
     flex-flow: column;
@@ -100,12 +114,13 @@ h1 {
 
 .cards__item__info {
     padding: 20px 30px 30px;
-    background-color: rgb(254, 249, 227);
+    background-color: rgb(254, 249, 227, .5);
 }
 
 .cards__item__text {
-    color: #252e48;
-    font-size: 18px;
+    color: rgb(17, 5, 44);
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
     line-height: 24px;
     inline-size: 255px;
 }
@@ -130,4 +145,10 @@ h1 {
         margin-bottom: 2rem;
     }
     
+}
+
+@media only screen and (max-width: 980px) {
+    h2, h3 {
+        font-size: 25px;
+    }
 }
