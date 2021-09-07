@@ -7,9 +7,9 @@
     z-index: -1;
 } */
 
-.service-container {
-    background: url('../../../src/background-images/flower-print.png') center center/cover no-repeat;
-    background-color: rgba(255, 255, 255, 0.2);
+.spirit-container {
+    /* background: url('../../../src/background-images/flower-print.png') center center/cover no-repeat; */
+    /* background-color: rgba(255, 255, 255, 0.2); */
     height: 100vh;
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@
     object-fit: contain;
 }
 
-.service-container > h1 {
+.spirit-container > h1 {
     font-family: 'Amatic SC', cursive;
     color: rgb(3, 196, 161);
     font-size: 115px;
@@ -32,39 +32,33 @@
     2px 2px 0 rgb(26, 26, 46);
 }
 
-/* .service-container > p {
+/* .spirit-container > p {
 
     color: rgb(85, 179, 177);
 
     font-family: 'Amatic SC', cursive;
 } */
 
-.service-text {
+.spirit-text {
     overflow: auto;
     margin: 20px 150px;
     color: rgb(22, 33, 62);
 }
 
-.service-text > p {
+.spirit-text > p {
     font-family: 'Urbanist', sans-serif;
     font-size: 30px;
-    /* align-items: center; */
-
+    align-items: center;
 }
 
-.service-text > h2 {
+.spirit-text > p > span {
     font-family: 'Homemade Apple', cursive;
 }
 
 
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    /* .service-text {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-    } */
-
-    .service-text {
+    .spirit-text {
         -webkit-backdrop-filter: none;
         backdrop-filter: none;
         background-color: rgba(255, 255, 255, 0.6);
@@ -74,32 +68,32 @@
         padding: 20px 30px;
     }
 }
-.service-btns {
+.spirit-btns {
     margin-top: 2px;
 }
 
-.service-btns .btn {
+.spirit-btns .btn {
     margin: 10px;
 }
 
 @media screen and (max-width: 960px) {
-    .service-container > h1 {
+    .spirit-container > h1 {
         font-size: 115px;
         /* margin-top: -400px; */
     }
     
-    .service-text {
+    .spirit-text {
         margin: 15px 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .service-container > h1 {
+    .spirit-container > h1 {
         font-size: 115px;
         /* margin-top: -400px; */
     }
 
-    .service-container > p {
+    .spirit-container > p {
         font-size: 60px;
     }
 

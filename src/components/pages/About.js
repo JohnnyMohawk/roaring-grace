@@ -10,10 +10,8 @@ function About() {
             <h1>I am</h1>
             
             <div className="article-text">
-                <p><span>Hi, I am Karen Muñoz,</span><br />Ad id ad cupidatat dolore magna nulla et tempor est laborum tempor sunt. Cillum irure duis labore tempor reprehenderit. Cillum eu excepteur fugiat exercitation commodo anim minim consectetur ex enim id duis enim. Sit sint officia irure adipisicing officia esse cillum. Anim veniam exercitation duis dolor irure dolore esse aliqua dolore laborum veniam dolore ex. Occaecat eu reprehenderit voluptate dolore et nostrud labore et dolor aliquip. Non ut deserunt aliquip qui cillum excepteur ullamco aliqua qui laborum.</p>
-            </div>
-            <div className="hero-btns">
-
+                <p className="name">Hi, I am Karen Muñoz</p>
+                <p>Ad id ad cupidatat dolore magna nulla et tempor est laborum tempor sunt. Cillum irure duis labore tempor reprehenderit. Cillum eu excepteur fugiat exercitation commodo anim minim consectetur ex enim id duis enim. Sit sint officia irure adipisicing officia esse cillum. Anim veniam exercitation duis dolor irure dolore esse aliqua dolore laborum veniam dolore ex. Occaecat eu reprehenderit voluptate dolore et nostrud labore et dolor aliquip. Non ut deserunt aliquip qui cillum excepteur ullamco aliqua qui laborum.</p>
             </div>
         </div>
     )

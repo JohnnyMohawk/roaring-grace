@@ -45,34 +45,29 @@
     color: rgb(22, 33, 62);
 }
 
+.article-text > .name {
+    font-family: 'Homemade Apple', cursive;
+}
+
 .article-text > p {
     font-family: 'Urbanist', sans-serif;
     font-size: 30px;
     align-items: center;
-    border-radius: 5px;
-    padding: 20px 30px;
+    
 }
-
-.article-text > p > span {
-    font-family: 'Homemade Apple', cursive;
-}
-
-
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    .article-text > p {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-    }
-
-    .article-text > p {
-        /* background: linear-gradient(90deg, rgb(246, 192, 101, .5) 0%, rgb(175, 0, 105, .5) 100%); */
+    .article-text {
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
         background-color: rgba(255, 255, 255, 0.4);
         -webkit-backdrop-filter: blur(4px);
         backdrop-filter: blur(4px);
-
+        border-radius: 5px;
+        padding: 20px 30px;
     }
 }
+
 .info-btns {
     margin-top: 2px;
 }

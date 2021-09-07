@@ -7,8 +7,8 @@
     z-index: -1;
 } */
 
-.service-container {
-    background: url('../../../src/background-images/flower-print.png') center center/cover no-repeat;
+.recipe-container {
+    background: url('../../../src/background-images/kitchen.jpeg') center center/cover no-repeat;
     background-color: rgba(255, 255, 255, 0.2);
     height: 100vh;
     width: 100%;
@@ -20,86 +20,80 @@
     object-fit: contain;
 }
 
-.service-container > h1 {
+.recipe-container > h1 {
     font-family: 'Amatic SC', cursive;
     color: rgb(3, 196, 161);
     font-size: 115px;
     margin-top: 20px;
     text-shadow:
-    -2px -2px 0 rgb(26, 26, 46),
-    2px 2px 0 rgb(26, 26, 46),
-    -2px -2px 0 rgb(26, 26, 46),
-    2px 2px 0 rgb(26, 26, 46);
+    -1px -1px 0 rgba(255, 255, 255, 0.1),
+    1px 1px 0 rgba(255, 255, 255, 0.1),
+    -1px -1px 0 rgba(255, 255, 255, 0.1),
+    1px 1px 0 rgba(255, 255, 255, 0.1);
 }
 
-/* .service-container > p {
+/* .recipe-container > p {
 
     color: rgb(85, 179, 177);
 
     font-family: 'Amatic SC', cursive;
 } */
 
-.service-text {
+.recipe-text {
     overflow: auto;
     margin: 20px 150px;
     color: rgb(22, 33, 62);
 }
 
-.service-text > p {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 30px;
-    /* align-items: center; */
-
-}
-
-.service-text > h2 {
+.recipe-text > .name {
     font-family: 'Homemade Apple', cursive;
 }
 
-
+.recipe-text > p {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    align-items: center;
+    
+}
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    /* .service-text {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-    } */
-
-    .service-text {
+    .recipe-text {
         -webkit-backdrop-filter: none;
         backdrop-filter: none;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.4);
         -webkit-backdrop-filter: blur(4px);
         backdrop-filter: blur(4px);
         border-radius: 5px;
         padding: 20px 30px;
     }
 }
-.service-btns {
+
+.recipe-btns {
     margin-top: 2px;
 }
 
-.service-btns .btn {
+.recipe-btns .btn {
     margin: 10px;
 }
 
 @media screen and (max-width: 960px) {
-    .service-container > h1 {
+    .recipe-container > h1 {
         font-size: 115px;
         /* margin-top: -400px; */
     }
     
-    .service-text {
+    .recipe-text {
         margin: 15px 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .service-container > h1 {
+    .recipe-container > h1 {
         font-size: 115px;
         /* margin-top: -400px; */
     }
 
-    .service-container > p {
+    .recipe-container > p {
         font-size: 60px;
     }
 
