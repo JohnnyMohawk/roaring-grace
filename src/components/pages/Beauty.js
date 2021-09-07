@@ -1,7 +1,18 @@
 import React from 'react';
+import ImageSlider from "../ImageSlider"
+import { SliderData } from "../SliderData"
 // import App from '../../App';
-import '../../App.css'
+import "../pages/Beauty.css"
 
-export default function Beauty() {
-    return <h1 className="beauty">Beauty</h1>
+const Beauty = () => {
+    return (
+        <>
+            <section className="contacts" id="projects-page">
+                <h1>Beautiful Images</h1>
+                <ImageSlider slides={SliderData}/>
+            </section>
+        </>
+    )
 }
+
+export default Beauty
