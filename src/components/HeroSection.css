@@ -7,6 +7,9 @@ video {
     z-index: -1;
 }
 
+
+
+
 .hero-container {
     /* background: url('') center center/cover no-repeat; */
     background-color: rgba(255, 255, 255, 0.2);
@@ -50,6 +53,36 @@ video {
 
 .hero-btns .btn {
     margin: 10px;
+}
+
+
+video {
+    animation: transitionIn 10s;
+}
+
+.hero-container > h1 {
+    animation: transitionIn 2s;
+}
+
+.hero-container > p {
+    animation: transitionIn 4s;
+}
+
+.hero-container > .hero-btns {
+    animation: transitionIn 10s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
 }
 
 @media screen and (max-width: 960px) {

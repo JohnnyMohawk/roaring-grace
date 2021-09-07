@@ -2,6 +2,9 @@ import React from 'react';
 // import App from '../../App';
 import '../../App.css'
 
-export default function SignUp() {
-    return <h1 className="sign-up">Sign Up</h1>
-}
+function SignUp() {
+    return (
+        <h1>poop</h1>
+    )}
+
+export default SignUp
